@@ -1,0 +1,22 @@
+/* bugSolution.css */
+
+/* Correcting syntax error: missing closing parenthesis */
+.element {
+  width: calc(100% - 20px);
+}
+
+/* Correcting inconsistent units: ensure all units are the same */
+.anotherElement {
+  height: calc(50% - 100px); /*Inconsistent. Should be all in px or %*/
+}
+.anotherElement {
+  height: calc(50% - 10px);/*Consistent use of percentage*/
+}
+
+/*Correcting inconsistent units. Convert the unit*/
+.anotherElement {
+  height: calc(50% - 100px); /*Inconsistent. Should be all in px or %*/
+}
+.anotherElement {
+  height: calc(50vh - 10rem); /*This is consistent but vh and rem are used*/
+} 
